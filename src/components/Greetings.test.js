@@ -27,7 +27,7 @@ describe("-- Greeting :", () => {
     expect(paragraphEl).toBeInTheDocument();
   });
 
-  test('DOES NOT renders the "DUMMY" when button was NOT clicked', () => {
+  test('DOES NOT render the "DUMMY" when button was NOT clicked', () => {
     render(<Greetings />);
 
     const button = screen.getByRole("button");
