@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import Greetings from "./Greetings";
 
-describe("-- Greeting : ", () => {
+describe("-- Greeting :", () => {
   test("Hello World printed", () => {
     render(<Greetings />);
 
